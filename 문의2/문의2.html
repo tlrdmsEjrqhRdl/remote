@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMG</title>
+    <link rel="stylesheet" href="문의2.css" />
+  </head>
+  <body>
+
+    <header>
+      <span>
+        <img src="로고-숨3.png" class="mainbutton" onclick="goTomainpage()" />
+      </span>
+      <span onclick="goTosinmungopage()" class="sinmungo">신문고 </span>
+      <span onclick="gotointroducepage()" class="introduce">사이트소개 </span>
+      <input type="checkbox" id="switch" />
+      <label for="switch" class="switch_label">
+        <span class="onf_btn"></span>
+      </label>
+    </header>
+
+    <div class="xmf">
+
+      <div class="ansdmltext">문의</div>
+
+      <hr class="line" />
+
+      <div class="round-container">
+        <span class="round">
+          <p class="round-text">세부사항</p>
+        </span>
+       
+        <span class="round" style="background-color: rgb(0, 60, 130)">
+          <p class="round-text" style="color: white">건의작성</p>
+        </span>
+       
+        <span class="round">
+          <p class="round-text">작성완료</p>
+        </span>
+
+      </div>
+      
+        <input type="text" class="inputtitle" placeholder="건의 제목"></input>
+
+        <input type="text" class="inputcontent" placeholder="건의 내용"></input>
+        
+        <div class="filebox">
+          <input class="upload-name" value="첨부파일" placeholder="첨부파일">
+          <label for="file">파일찾기</label> 
+          <input type="file" accept="image/jpeg,.jpeg" id="file">
+        </div>
+
+        <button type="button" class="submit">제출</button>
+
+
+      
+    </div>
+
+
+  </body>
+  <script src="문의2.js"></script>
+</html>
+  

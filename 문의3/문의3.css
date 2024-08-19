@@ -1,0 +1,147 @@
+header {
+  width: 1519px;
+  height: 75px;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: white;
+}
+
+.mainbutton {
+  width: 100px;
+  height: 50px;
+  border-bottom-right-radius: 6px;
+  margin-left: 300px;
+  margin-top: -15px;
+  user-select: none;
+}
+
+header > span:first-of-type {
+  margin-top: 30px;
+}
+
+body {
+  background-color: rgb(244, 244, 244);
+  margin: 0;
+  padding: 0;
+}
+
+.introduce {
+  position: absolute;
+  left: 1280px;
+  top: 25px;
+  font-size: large;
+  user-select: none;
+}
+
+.sinmungo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 1200px;
+  top: 25px;
+  font-size: large;
+  user-select: none;
+}
+
+#switch {
+  position: absolute;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.switch_label {
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  width: 58px;
+  height: 28px;
+  background: #fff;
+  border: 2px solid black;
+  border-radius: 20px;
+  transition: 0.2s;
+  left: 1400px;
+  top: 25px;
+}
+
+.switch_label:hover {
+  background: white;
+}
+
+.onf_btn {
+  position: absolute;
+  top: 4px;
+  left: 3px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: black;
+  transition: 0.2s;
+}
+
+#switch:checked + .switch_label {
+  background: black;
+  border: 2px solid black;
+}
+
+#switch:checked + .switch_label:hover {
+  background: black;
+}
+
+#switch:checked + .switch_label .onf_btn {
+  left: 34px;
+  background: #fff;
+  box-shadow: 1px 2px 3px #00000020;
+}
+
+.xmf {
+  background-color: white;
+  width: 987px;
+  height: 1554px;
+  margin: 50px auto; /* 가운데 정렬을 위해 변경 */
+  padding-top: 30px;
+}
+
+.ansdmltext {
+  user-select: none;
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: center; /* 가운데 정렬을 위해 변경 */
+  margin-bottom: 40px;
+}
+
+.line {
+  background-color: black;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.round-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.round {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 3.5px solid rgb(0, 60, 130);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#round1-1 {
+  background-color: solid rgb(0, 60, 130);
+}
+
+.round-text {
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+}
