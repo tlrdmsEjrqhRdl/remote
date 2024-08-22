@@ -372,4 +372,10 @@ body {
 .submenu ul li:hover {
   background-color: #003c82; /* 호버 시 배경색 변경 */
   color: #fff; /* 호버 시 텍스트 색상 변경 */
+  border-radius: 20px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
 }

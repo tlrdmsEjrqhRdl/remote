@@ -147,16 +147,17 @@ body {
 }
 
 .inputtitle {
-  border: none;
+  border: 2px;
+  border-color: rgb(0, 0, 0);
   align-items: center;
-  width: 700px;
+  width: 800px;
   height: 50px;
   padding-left: 10px;
   font-size: 16px;
   background-color: #f4f4f4;
   outline: none;
   text-align: left;
-  border-radius: 7px;
+  border-radius: 15px;
   margin-top: 70px;
   margin-left: 10px;
 }
@@ -177,16 +178,16 @@ body {
 }
 
 .inputcontent {
-  border: none;
+  border: 2px;
   align-items: center;
-  width: 700px;
+  width: 800px;
   height: 900px;
   padding-left: 10px;
   font-size: 16px;
   background-color: #f4f4f4;
   outline: none;
   text-align: left;
-  border-radius: 7px;
+  border-radius: 15px;
   margin-top: 30px;
   margin-left: 10px;
 }
@@ -235,4 +236,17 @@ body {
   margin-top: 30px;
   height: 30px;
   width: 200px;
+}
+
+.onesideradious {
+  width: 800px;
+  height: 30px;
+  background-color: #003c82;
+  color: white;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
