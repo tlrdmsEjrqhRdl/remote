@@ -1,10 +1,7 @@
-function updateFileName() {
-  const fileInput = document.getElementById('file');
-  const fileNameInput = document.getElementById('file-name');
-  const file = fileInput.files[0];
-  if (file) {
-    fileNameInput.value = file.name;
-  } else {
-    fileNameInput.value = '첨부파일';
-  }
-}
+var fileInput = document.getElementById('file');
+var fileNameDisplay = document.querySelector('.upload-name');
+
+fileInput.addEventListener('change', function () {
+  var fileName = fileInput.files[0].name;
+  fileNameDisplay.value = fileName;
+});
