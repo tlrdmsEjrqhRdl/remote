@@ -147,8 +147,7 @@ body {
 }
 
 .inputtitle {
-  border: 2px;
-  border-color: rgb(0, 0, 0);
+  border: 1px solid black;
   align-items: center;
   width: 800px;
   height: 50px;
@@ -178,7 +177,7 @@ body {
 }
 
 .inputcontent {
-  border: 2px;
+  border: 1px solid black;
   align-items: center;
   width: 800px;
   height: 900px;
@@ -229,7 +228,10 @@ body {
 }
 
 .filebox {
-  width: 800px;
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .submit {
@@ -240,7 +242,7 @@ body {
 
 .onesideradious {
   width: 800px;
-  height: 30px;
+  height: 40px;
   background-color: #003c82;
   color: white;
   margin-top: 40px;
@@ -274,4 +276,6 @@ li {
 .brother {
   padding-left: 20px;
   padding-top: 20px;
+  font-weight: 900;
+  font-size: 25px;
 }
