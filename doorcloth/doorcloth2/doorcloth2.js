@@ -7,9 +7,9 @@ fileInput.addEventListener('change', () => {
 });
 
 function checkOnlyOne(element) {
-  const checkboxes = document.getElementsByName('gubunchoice');
+  const radios = document.getElementsByName('gubunchoice');
 
-  checkboxes.forEach((cb) => {
+  radios.forEach((cb) => {
     cb.checked = false;
   });
 

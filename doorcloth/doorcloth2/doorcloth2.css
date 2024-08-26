@@ -152,10 +152,8 @@ body {
   width: 800px;
   height: 50px;
   padding-left: 10px;
-  font-size: 16px;
   background-color: #f4f4f4;
   outline: none;
-  text-align: left;
   border-radius: 15px;
   margin-top: 40px;
   margin-left: 10px;
@@ -169,7 +167,10 @@ body {
 }
 
 .inputtitle::placeholder {
-  color: #555;
+  padding-top: 10px;
+  font-size: 16px;
+  padding-left: 10px;
+  font-weight: bold;
 }
 
 .inputtitle:disabled {
@@ -181,14 +182,19 @@ body {
   align-items: center;
   width: 800px;
   height: 900px;
-  padding-left: 10px;
-  font-size: 16px;
   background-color: #f4f4f4;
   outline: none;
   text-align: left;
   border-radius: 15px;
   margin-top: 30px;
   margin-left: 10px;
+}
+
+.inputcontent::placeholder {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-weight: bold;
 }
 
 .filebox .upload-name {
@@ -289,4 +295,11 @@ li {
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 20px;
 }
