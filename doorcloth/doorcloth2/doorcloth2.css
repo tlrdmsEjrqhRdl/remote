@@ -272,20 +272,20 @@ li {
   list-style: none;
   display: inline;
   justify-content: center;
-  margin-left: 30px;
+  margin-left: 60px;
 }
 
 .brother {
   padding-left: 30px;
   padding-top: 30px;
-  font-weight: 900;
+  font-weight: bolder;
   font-size: 25px;
   padding-bottom: 15px;
 }
 
 .fourchoice {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 550;
   text-align: center;
   align-items: center;
   justify-content: center;
