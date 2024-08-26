@@ -255,6 +255,7 @@ body {
   padding-top: 10px;
   padding-left: 15px;
   font-weight: bold;
+  font-size: 20px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -266,7 +267,7 @@ li {
 
 .bellryuchoice {
   border: 2px solid #c7d2e1;
-  width: 800px;
+  width: 810px;
   height: 200px;
   margin-top: 40px;
   background-color: #eef3f9;
@@ -278,23 +279,20 @@ li {
   list-style: none;
   display: inline;
   justify-content: center;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 .brother {
-  padding-left: 30px;
+  padding-left: 15px;
   padding-top: 20px;
   font-weight: bolder;
-  font-size: 23px;
+  font-size: 25px;
   padding-bottom: 13px;
 }
 
 .fourchoice {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 550;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
 }
 
 textarea {
