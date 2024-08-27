@@ -101,7 +101,7 @@ body {
 .xmf {
   background-color: white;
   width: 987px;
-  height: 1554px;
+  height: 1800px;
   margin: 50px auto; /* 가운데 정렬을 위해 변경 */
   padding-top: 30px;
   display: flex;
@@ -204,10 +204,14 @@ body {
   padding: 0 10px;
   vertical-align: middle;
   border: 1px solid #dddddd;
-  width: 500px;
+  width: 660px;
   color: #999999;
-  margin-left: 80px;
+  margin-left: 10px;
   margin-top: 20px;
+}
+
+.filbox .upload-name::placeholder {
+  font-size: 15px;
 }
 
 .filebox label {
@@ -218,7 +222,7 @@ body {
   background-color: #003c82;
   cursor: pointer;
   height: 20px;
-  margin-left: 5px;
+  margin-left: 15px;
   margin-top: 20px;
   text-align: center;
   font-size: larger;
@@ -242,9 +246,14 @@ body {
 }
 
 .submit {
-  margin-top: 30px;
-  height: 30px;
-  width: 200px;
+  margin-top: 50px;
+  height: 50px;
+  width: 250px;
+  background-color: #003c82;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 .onesideradious {
@@ -269,7 +278,7 @@ li {
 .bellryuchoice {
   border: 2px solid #c7d2e1;
   width: 810px;
-  height: 200px;
+  height: 170px;
   margin-top: 40px;
   background-color: #eef3f9;
 }
