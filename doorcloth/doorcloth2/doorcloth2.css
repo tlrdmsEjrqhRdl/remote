@@ -151,13 +151,15 @@ body {
   border: 1px solid black;
   align-items: center;
   width: 800px;
-  height: 50px;
+  height: 30px;
   padding-left: 10px;
   background-color: #f4f4f4;
   outline: none;
   border-radius: 15px;
   margin-top: 40px;
   margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .inputtitle-container {
@@ -168,9 +170,7 @@ body {
 }
 
 .inputtitle::placeholder {
-  padding-top: 10px;
   font-size: 20px;
-  padding-left: 10px;
   font-weight: bold;
 }
 
@@ -180,21 +180,22 @@ body {
 
 .inputcontent {
   border: 1px solid black;
-  align-items: center;
-  width: 800px;
-  height: 900px;
   background-color: #f4f4f4;
-  outline: none;
-  text-align: left;
+  width: 780px;
+  height: 900px;
   border-radius: 15px;
   margin-top: 30px;
   margin-left: 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  outline: none;
+  text-align: left;
+  align-items: center;
 }
 
 .inputcontent::placeholder {
   font-size: 20px;
-  padding-left: 20px;
-  padding-top: 10px;
   font-weight: bold;
 }
 
@@ -278,7 +279,7 @@ li {
 .bellryuchoice {
   border: 2px solid #c7d2e1;
   width: 810px;
-  height: 170px;
+  height: 150px;
   margin-top: 40px;
   background-color: #eef3f9;
 }
