@@ -148,14 +148,14 @@ body {
 }
 
 .inputtitle {
-  border: 1px solid black;
+  border: 2px solid #c7d2e1;
   align-items: center;
   width: 800px;
   height: 30px;
   padding-left: 10px;
-  background-color: #f4f4f4;
+  background-color: #eef3f9;
   outline: none;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-top: 40px;
   margin-left: 10px;
   padding-left: 20px;
@@ -179,11 +179,11 @@ body {
 }
 
 .inputcontent {
-  border: 1px solid black;
-  background-color: #f4f4f4;
+  border: 2px solid #c7d2e1;
+  background-color: #eef3f9;
   width: 780px;
   height: 900px;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-top: 30px;
   margin-left: 10px;
   padding-left: 20px;
